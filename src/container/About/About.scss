@@ -1,0 +1,101 @@
+#about {
+    font-size: 1.1rem;
+    background: var(--white-color);
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    .app__profiles {
+        display: flex;
+
+        .about__image {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        img {
+            border: 5px solid #edf2f8;
+            border-radius: 100%;
+            width: 75%;
+            height: 65%;
+        }
+
+        p {
+            line-height: 3rem;
+            padding: 1rem;
+            color: var(--gray-color);
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            font-size: 1rem;
+            padding: 1rem 0 1rem;
+            // margin: 5rem 0;
+            text-align: center;
+
+            a{
+                text-decoration: none;
+            }
+
+            .btn {
+                padding: 10px 25px;
+                border-radius: 20px;
+                text-transform: capitalize;
+                cursor: pointer;
+                margin: 0 1rem;
+                letter-spacing: 2px; 
+                color: #fff;
+                font-weight: 500;
+            }
+
+            .btn:first-child {
+                background: var(--secondary-color);
+                &:hover {
+                    background-color: var(--white-color);
+                    color: var(--secondary-color);
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                }
+            }
+
+            .btn:nth-child(2) {
+                background: #fff;
+                color: #111;
+                // border: 2px solid black;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                
+                &:hover {
+                    color: white;
+                    background-color: #111;
+                    border: 1px solid white;
+                }
+            }
+
+        }
+        @media screen and (max-width: 900px) {
+            flex-direction: column;
+            .app__profiles {
+                margin: 10px;
+                img {
+                    padding-left: 50px;
+                }
+            }
+
+            .buttons{
+                flex-direction: column;
+                justify-content: center;
+                width: 75%;
+                margin: 25px auto;
+
+                .btn {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 500px) {
+        margin: 10px;
+    }
+}
