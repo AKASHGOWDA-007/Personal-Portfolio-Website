@@ -22,7 +22,7 @@ function Navbar() {
         <li className="app__flex p-text"><a href="#home"><i className="fa-solid fa-house"></i> Home</a></li>
         <li className="app__flex p-text"><a href="#about"><i className="fa-solid fa-user"></i> About</a></li>
         <li className="app__flex p-text"><a href="#skills"><i className="nav-icon fas fa-cog"></i> Skills</a></li>
-        <li className="app__flex p-text"><a href="#projects"><i className="nav-icon fas fa-cog"></i> Projects</a></li>
+        <li className="app__flex p-text"><a href="#projects"><i className="fa-brands fa-codepen"></i> Projects</a></li>
         <li className="app__flex p-text"><a href="#contact"><i className="fa-solid fa-address-book"></i> Contact</a></li>
       
       </ul>
