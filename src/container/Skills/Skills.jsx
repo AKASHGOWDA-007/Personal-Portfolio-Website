@@ -5,7 +5,7 @@ import "./Skills.scss"
 import {skill} from "../Skills/skill";
 
 function Skills() {
-  const [skills, setSkills] = useState(skill);
+  const [skills] = useState(skill);
 
   return (
     <div className='app__skills'>

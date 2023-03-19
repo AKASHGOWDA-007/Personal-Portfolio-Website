@@ -1,88 +1,3 @@
-// .app__contact-text {
-//     margin: 1rem;
-//     width: 40%;
-//     p {
-//         font-size: 1.5rem;
-//         margin: 1rem;
-//         text-align: center;
-//     }
-// }
-
-// form {
-//     width: 60%;
-//     margin: 2rem;
-
-//     // @media screen and (max-width: 1200px) {
-//     //     margin: 10px;
-//     // }
-// }
-
-// .app__contact-form {
-//     display: flex;
-//     justify-content: space-between;
-
-//     @media screen and (max-width: 1200px) {
-//         flex-direction: column;
-//         width: 100%;
-//     }
-// }
-
-// .form-group {
-//     width: 100%;
-//     display: flex;
-//     justify-content: center;
-// }
-
-// label {
-//     display: flex;
-//     flex-direction: column;
-//     font-weight: 500;
-// }
-
-// input {
-//     padding: 1rem;
-//     padding-left: 0;
-//     border: none;
-//     border-bottom: 1px solid black;
-//     outline: none;
-//     background-color: var(--primary-color);
-//     font-size: 1.1rem;
-
-//     &:placeholder {
-//         color: red;
-//     }
-// }
-
-// input::placeholder {
-//     color: var(--gray-color);
-//     // color: var(--secondary-color)
-// }
-
-// .message {
-//     margin: 2rem 0; 
-
-//     label {
-//         width: 100%;
-//         margin: 0 85px;
-//         font-weight: 500;
-
-//         textarea {
-//             margin: 1rem 0;
-//             padding: 5px;
-//             font-size: 1.1rem;
-//             color: var(--lightgray-color);
-//             border: none;
-//             outline: none;
-//             background-color: var(--primary-color);
-//             border-bottom: 1px solid black;
-
-//         }
-//         @media screen and (max-width: 900px) {
-//             margin: 0 10px;
-//         }
-//     }
-// }
-
 .app__footer-form {
     width: 60%;
     flex-direction: column;
@@ -125,6 +40,12 @@
         cursor: pointer;
         width: 200px;
         text-align: center;
+
+        &:hover {
+            background-color: #FFF;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            color: var(--secondary-color);
+        }
     
         @media screen and (max-width: 900px) {
             width: 300px;

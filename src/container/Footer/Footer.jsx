@@ -2,15 +2,15 @@ import React from "react";
 import { AppWrap } from "../../wrapper";
 import "./Footer.scss";
 import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import emailjs, { send } from '@emailjs/browser';
 
-function Footer() {
+function Footer() {   
 
     const form = useRef();
 
     const sendEmail = (e) => {
       e.preventDefault();
-
+      
       emailjs.sendForm('service_pn1pc4s', 'template_hfgwovc', form.current, 'Ylf4wB69Hf9csD8os')
         .then((result) => {
           console.log(result.text);

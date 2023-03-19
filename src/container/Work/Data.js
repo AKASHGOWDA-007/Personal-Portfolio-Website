@@ -3,6 +3,15 @@ import { images } from "../../constants";
 const projects = [
   {
     id: 1,
+    image: images.about05,
+    title: "Easybank-Landing-Page",
+    tags: "web development",
+    projectLink: "https://easybank-page-frontend-mentor-akash.netlify.app/",
+    codeLink: "https://github.com/AKASHGOWDA-007/Easybank-landing-page",
+    description: "Frontend Mentor Challenge",
+  },
+  {
+    id: 2,
     image: images.about01,
     title: "ToDo List App",
     tags: "web development",
@@ -12,7 +21,7 @@ const projects = [
       "Todo list is a task list app. Adding & removing tasks is quick and easy.",
   },
   {
-    id: 2,
+    id: 3,
     image: images.about02,
     title: "Random Quote Generator",
     tags: "web development",
@@ -22,7 +31,7 @@ const projects = [
       "In this quote app, each time you click on the new quote button you'll get a new quote.",
   },
   {
-    id: 3,
+    id: 4,
     image: images.about03,
     title: "Online Food Delivery Website",
     tags: "UI/UX",
@@ -32,7 +41,7 @@ const projects = [
     description: "Get instant delivery of your favourite food",
   },
   {
-    id: 4,
+    id: 5,
     image: images.about04,
     title: "Starbucks-Landing-Page",
     tags: "UI/UX",
