@@ -26,6 +26,7 @@ import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 import about05 from "../assets/about05.jpg";
+import about06 from "../assets/about06.png";
 
 import profile from "../assets/profile.png";
 import profileImage from "../assets/profile-image.png";
@@ -68,6 +69,7 @@ export default {
   about03,
   about04,
   about05,
+  about06,
   profile,
   profileImage,
   circle,

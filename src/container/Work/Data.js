@@ -21,6 +21,15 @@ const projects = [
       "Todo list is a task list app. Adding & removing tasks is quick and easy.",
   },
   {
+    id: 6,
+    image: images.about06,
+    title: "Chat GPT Landing Page",
+    tags: "ReactJs",
+    projectLink: "https://chatgpt-landing-page.netlify.app/",
+    codeLink: "https://github.com/AKASHGOWDA-007/chatgpt-landing-page",
+    description: "",
+  },
+  {
     id: 3,
     image: images.about02,
     title: "Random Quote Generator",
@@ -30,6 +39,17 @@ const projects = [
     description:
       "In this quote app, each time you click on the new quote button you'll get a new quote.",
   },
+
+  {
+    id: 5,
+    image: images.about04,
+    title: "Starbucks-Landing-Page",
+    tags: "UI/UX",
+    projectLink: "https://starbucks-landing-page1.netlify.app/#",
+    codeLink: "https://github.com/AKASHGOWDA-007/Starbucks-Landing-Page",
+    description: "",
+  },
+
   {
     id: 4,
     image: images.about03,
@@ -39,15 +59,6 @@ const projects = [
       "https://akashgowda-007.github.io/Online-Food-Delivery-Website/",
     codeLink: "https://github.com/AKASHGOWDA-007/Online-Food-Delivery-Website",
     description: "Get instant delivery of your favourite food",
-  },
-  {
-    id: 5,
-    image: images.about04,
-    title: "Starbucks-Landing-Page",
-    tags: "UI/UX",
-    projectLink: "https://starbucks-landing-page1.netlify.app/#",
-    codeLink: "https://github.com/AKASHGOWDA-007/Starbucks-Landing-Page",
-    description: "",
   },
 ];
 

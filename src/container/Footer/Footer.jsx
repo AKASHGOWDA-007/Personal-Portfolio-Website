@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { AppWrap } from "../../wrapper";
 import "./Footer.scss";
 import { useRef } from 'react';
 import emailjs, { send } from '@emailjs/browser';
 
-function Footer() {   
+function Footer() {
+  const [messageSent, setMessageSent] = useState(false);
 
     const form = useRef();
 
@@ -15,9 +16,12 @@ function Footer() {
         .then((result) => {
           console.log(result.text);
           console.log("message sent")
+          setMessageSent(true);
         }, (error) => {
           console.log(error.text);
+          setMessageSent(false);
         });
+        setMessageSent(false);
     };
 
     return (
@@ -41,7 +45,8 @@ function Footer() {
               required
             />
           </div>
-          <input type="submit" value="send message" className="p-text send" ></input>
+          <button type="submit" className="p-text send">{messageSent ? "Message Sent! Succesfully" : "Send Message" }</button>
+          {/* <input type="submit" value="send message" className="p-text send" ></input> */}
         </form>
       </>
     );
