@@ -33,6 +33,11 @@
     }
 }
 
+.app__navbar-logo a {
+    text-decoration: none;
+    list-style: none;
+}
+
 .app_navbar-links {
     flex: 1;
     display: flex;

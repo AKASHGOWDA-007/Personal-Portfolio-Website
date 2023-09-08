@@ -21,7 +21,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
             className="about__image"
           >
-            <img src={images.profileImage} alt="profile-image" />
+            <img src={images.profileImage} alt="profile" />
           </motion.div>
           <motion.div
             whileInView={{ x: [200, 0] }}
@@ -29,25 +29,28 @@ const About = () => {
           >
             <div className="about-text">
               <p>
-                I'm a frontend developer living in Bangalore, India, Who likes
-                to provide solutions for people's <br /> projects and businesses
-                which it is a challenge that I enjoy overcoming.
-                <br /> I am highly proficient in CSS, SASS but have built some other projects with JavaScript and React.
-                <br /> I am currently working on improving my JavaScript skills by building various projects to enhance my abilities.
-                <br /> I build websites using HTML, CSS, JavaScript, and a other frameworks and libraries with a  focus <br /> on responsiveness, accessibility and pleasing aesthetics.
-                <br /> I spend most days learning and building up, either start it from scratch or adding some <br /> customized features and functionality for outdated websites to make them shine again.</p>
+                Akash is a passionate and highly motivated <strong>DevOps Engineer</strong>, eager to embark on a career in the world of technology and automation.
+                <br /> He has successfully completed technical training on <strong>Linux, AWS & DevOps</strong> from <strong>Besant Technologies</strong>
+                <br /> During this time, he honed his skills in version control, <strong>continuous integration</strong>, and <strong>deployment automation</strong>. 
+                <br /> He also gained hands-on experience with tools like <strong>Git, Jenkins, Maven, Docker,</strong> and <strong>Kubernetes.</strong>
+                <br /> Akash is known for his problem-solving skills and is committed to staying updated in the ever-evolving DevOps landscape.
+                <br /> With a strong work ethic, he's ready to collaborate and contribute to innovative solutions on a DevOps team.
+                <br /> Apart from his skills in DevOps world, he his also skilled in Frontend Development.
+              </p>
               <div className="buttons">
                 <a
                   className="btn"
-                  href="https://flowcv.com/resume/24gw2gs0s2"
+                  href="https://drive.google.com/file/d/1Kb21ItDBMDx1tOg7yIoXTbT4Gop2LlZM/view?usp=drive_link"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   hire me
                 </a>
                 <a
                   className="btn"
-                  href="mailto:g.akash712@gmail.com"
+                  href="mailto:akashgowdasde@gmail.com"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   contact me
                 </a>

@@ -5,7 +5,7 @@ const AppWrap = (Component, idName, classNames) =>
   function HOC() {
     const year = new Date().getFullYear();
     return (
-      <div id={idName} className={`app__container ${classNames}`}>
+      <div id={idName} className={`app__container ${idName}`}>
         <SocialMedia />
 
         <div className="app__wrapper app__flex">

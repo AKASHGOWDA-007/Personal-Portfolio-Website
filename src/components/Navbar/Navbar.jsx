@@ -8,9 +8,11 @@ function Navbar() {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <h1>
-          Akash <span>.</span>
-        </h1>
+        <a href="/">
+          <h1>
+            Akash <span>.</span>
+          </h1>
+        </a>
       </div>
       <ul className="app_navbar-links">
         {/* {["home", "about", "skills", "projects", "contact"].map((item) => (

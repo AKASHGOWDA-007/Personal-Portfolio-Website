@@ -33,8 +33,8 @@ function Header() {
           </div>
 
           <div className="tag-cmp app__flex">
+          <p className="p-text">Devops Engineer</p>
           <p className="p-text">Web Developer</p>
-          <p className="p-text">Front End Enthusiast</p>
         </div>
         </div>
       </motion.div>
